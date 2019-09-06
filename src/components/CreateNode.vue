@@ -12,7 +12,7 @@
       <button @click="loadFile">Load</button>
     </div>
     <div>
-      <textarea rows="20" cols="100" v-model="result"></textarea>
+      <pre>{{ result }}</pre>
     </div>
     <div>
 
